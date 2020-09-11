@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.contenedor1{
+    width: 91%;
+    height: 700px;
+    background-color: #F8F8FF;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+.cuadroP{
+    width: 30%;
+    height: 655px;
+    background-color:#CACFD2 ;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+    flex-direction: row;
+}
+.contenido{
+    width: 90%;
+    height: 625px;
+    border: black 4px solid;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.fotoPerfil{
+    width: 70%;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.nombre{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+.grado{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Staatliches', cursive;
+}
+.informacion{
+    color: black;
+    font-size: 22px;
+    padding-left: 50px;
+    font-family: 'Amatic SC', cursive;
+}
+.descripcion{
+    color: black;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    padding-left: 50px;
+}
+.desPersonal{
+    color: black;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 35px;
+    text-align: justify;
+    font-family: 'Amatic SC', cursive;
+}
+.cuadroF{
+    width: 75%;/*anchura*/
+    height: 510px;/*altura*/
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .cuadroF img{
+      width: 80%;
+      height: auto;
+      margin-top: 20%;
+  }
+  .cuadroF ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+  
+    animation: cambio 20s infinite;
+  }
+  .cuadroF li{
+    width: 100%;
+    list-style: none;
+  }
+  
+  @keyframes cambio {/*esto sirver para dar paradas a las imganeses, es decir cuanto durar en pasar*/
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+  
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+  
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+  
+    75%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+  }
+  
+  /*final del primer section*/
+
+  .contenedor2{
+      width: 91%;
+      height: 500px;
+      background-color: #F8F8FF;
+     opacity: 0.8;
+      margin: auto;
+      margin-top: 20px;
+      display: flex;
+
+  }
+  .pe_cajaPrincipal {
+    width: 300px;
+    height: 400px;
+    background-color: #45B39D;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .pe_cajaImg {
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 50px;  
+    
+    position: absolute;
+  }
+  .pe_cajaTexto {
+    width: 350px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 280px;
+    margin-left: -20px;
+
+
+    position: absolute;
+  }
+  .pe_cajaTexto p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Handlee', cursive;
+    margin-top: 40px;
+  }
+
+  .C_frase{
+      width: 91%;
+      height: 100px;
+      background-color: #F8F8FF;
+      opacity: 0.8;
+      margin: auto;
+      margin-top: 20px;
+  }
+  .frase{
+      color: #2C3E50;
+      font-size: 30px;
+      font-family: 'Grandstander', cursive;
+      text-align: center;
+      padding-top: 20px;
+  }
+  .autor{
+    color: #2C3E50;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+    text-align: right;
+    padding-right: 100px;
+  }
+/********MODO TELEFONO***********/
+@media only screen and (max-width:767px){
+  
+}

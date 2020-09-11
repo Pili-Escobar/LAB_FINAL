@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.contPrincipal{
+    width: 91%;
+    height: 600px;
+    background-color: #F8F8FF;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.TextoC{
+    width: 80%;
+    height: 100px;
+    background-color:#F1948A;
+    margin: auto;
+    margin-top: 20px;
+}
+.texto{
+    width: 100%;
+    height: 100px;
+    border: #F1C40F 2px solid;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Amaranth', sans-serif;
+}
+/**/
+.cont1{
+    width: 90%;
+    height: 400px;
+    background-color: #A3E4D7;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.wrap{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+.tarjeta-wrap{
+    margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+    margin-top: -2px;
+}
+.tarjeta{
+    width: 300px;
+    height: 350px;
+    background-color: #F29720;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .7s ease;
+}
+.adelante, .atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.atras{
+    transform: rotateY(180deg);
+}
+.tarjeta-wrap:hover .tarjeta{
+    transform: rotateY(180deg);
+}
+/**/
+.cart1 img{
+    width: 100%;
+    height: 60%;
+    margin-top: 60px;
+}
+.cart2 img{
+    width: 100%;
+    height: 60%;
+    margin-top: 60px;
+}
+.cart3 img{
+    width: 100%;
+    height: 60%;
+    margin-top: 60px;
+}
+.textoT{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Gayathri', sans-serif;
+}
+.link{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Gayathri', sans-serif;
+}
