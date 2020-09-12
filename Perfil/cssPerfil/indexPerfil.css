@@ -76,3 +76,80 @@ box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
     text-align: center;
     padding-top: 5px;
 }
+/*MODO TELEFONO*/
+@media only screen and (max-width: 767px){
+    section{
+        width: 91%;
+        height: 800px;
+        background-color: #F8F8FF;
+        opacity: 0.8;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ContenedorT{
+        width: 80%;
+        height: 100px;
+        background-color: #F1C40F;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contenedor2{
+        width: 100%;
+        height: 100px;
+        border: #148F77 2px solid;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .titulo{
+        color: black;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Lobster Two', cursive;
+    }
+    .contenedorInfo{
+        width: 90%;
+        height: 620px;
+        background-color: teal;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .imgP{
+        width: 70%;
+        height: 300px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .infor{
+        color: white;
+        text-align: left;
+        margin: auto;
+        font-size: 15px;
+        padding-right: 20px;
+        margin-left: 40px;
+        padding-top: 5px;
+    }
+    .botonCV{
+        width: 250px;
+        height: 50px;
+        margin: auto;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .botonCV:hover{
+        -webkit-box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
+    }
+    .textoCV{
+        color: white;
+        font-size: 20px;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        text-align: center;
+        padding-top: 5px;
+    }
+}

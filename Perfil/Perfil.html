@@ -12,6 +12,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cuprum&family=News+Cycle&display=swap" rel="stylesheet">
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+
         <title>PERFIL</title>
     </head>
 
@@ -19,19 +22,19 @@
         <!--INICIO DEL HEADER Y NAV------------------->
         <header>
             <img class="ImgP" src="imgPerfil/Iprincipal.jpg"> 
-            <nav id="Menu" class="">
-                 <!--<div class="cajaIconos">
-                      <img id="iconoMenu" src="img/menu.png">
-                      <img id="iconoCerrar" class="none" src="img/cerrar.png">
-                  </div>-->
-                  <ul id="Nav" class="nav">
-                      <li><a class="BT" href="../index.html">INICIO</a></li>
-                      <li><a class="BT" href="Perfil.html">PERFIL</a></li>
-                      <li id="Prog" class="Prog mas"><a class="BT" href="#">PROGRAMAS</a>
-                          <ul id="lisP" class="Prgos" >
-                              <a href="#"><li>HTML-CSS</li></a>
-                              <a href="#"><li>JAVA</li></a>
-                              <a href="#"><li>ANDROID</li></a>
+            <nav id="nav" class="">
+                 <div class="cajaIconosResponsive">
+                      <img id="iconoMenuResponsive" src="imgPerfil/menu.png">
+                      <img id="iconoMenuCerrar" class="none" src="imgPerfil/cerrar.png">
+                  </div>
+                  <ul id="ulNav" class="nav">
+                      <li><a class="bt" href="../index.html">INICIO</a></li>
+                      <li><a class="bt" href="../Perfil/Perfil.html">PERFIL</a></li>
+                      <li id="boton4" class="bt4 mas"><a class="bt" href="#">PROGRAMAS</a>
+                          <ul id="lisBoton4" class="botones4">
+                              <a href="../Web/Web.html"><li>HTML-CSS</li></a>
+                              <a href="../Java/Java.html"><li>JAVA</li></a>
+                              <a href="../android/android.html"><li>ANDROID</li></a>
                           </ul>
                       </li>
                   </ul> 
@@ -40,7 +43,7 @@
           <!------FINAL DEL HEADER Y NAV-------------------->
 
           <!--INICIO DEL SECTION INFORMACION-->
-          <section class="">
+          <section>
               <div class="ContenedorT">
                   <div class="contenedor2">
                       <h1 class="titulo">Información Personal</h1>
@@ -87,5 +90,8 @@
             </a>  
               
         </footer>
+
+        <script src="../Perfil/menu.js"></script>
+
     </body>
 </html>

@@ -1,12 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-body{
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
     width: 100%;
     height: 360px;
-    background-color: grey;
+    background-color: #F7DC6F;
 }
 header{
     width: 90%;
@@ -36,45 +35,133 @@ nav{
     margin-left: 50px;
     margin-top: 10px;
 }
-.BT{
+  .bt {
     float: left;
-    margin-right: 20px;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
     color: black;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 15px;
-}
-.BT:hover{
-    height: 50px;
-    background-color: #CACFD2;
-}
-.mas{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Ubuntu Condensed', sans-serif;
+  }
+  
+  .bt:hover {
+    color: #ffffff;
+    background-color: rgba(247, 75, 52, 1);
+  }
+  .mas {
     display: flex;
     flex-direction: column;
-}
-.Prgos{
-    display: none;
+  }
+  .botones4 {
     list-style: none;
-}
-.mostrar{
+    display: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+  }
+  .mostrar {
     display: block;
-}
-.mas:hover{
-    background-color: brown;
-}
-.Prgos a{
+  }
+  .mas:hover {
+    background-color: rgba(247, 75, 52, 1);
+  }
+  .botones4 a {
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.Prgos a li{
+  }
+  
+  .botones4 a li {
     text-decoration: none;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
-    color: blueviolet;
+    color: #ffffff;
+  }
+  .botones4 a li:hover {
+    background-color:#AED6F1;
+  }
+  
+  /*SECCION DEL MENU RESPONSIVE*/
+  .cajaDeIconosResponsive {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  #iconoMenuResponsive {
+    width: 35px;
+    margin-top: 10px;
+    float: left;
+    display: none;
+    margin-left: 10px;
+  }
+  #iconoMenuCerrar {
+    width: 25px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+  }
+  .none {
+    display: none;
+  }
+  .cajaDeIconosResponsive {
+    display: none;
+  }
+  /* -----------SECCIÓN DE RESPONSI MOVIL */
+  @media only screen and (max-width: 767px) {
+    .cajaDeIconosResponsive {
+    display: block;
+  }
+  nav {
+    width: 350px;
+    height: 80px;
+    background-color: #F8F8FF;
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-left: 8px;
+    position: absolute;
+  }
+  .activarNav {
+    background-color: #16a085;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .nav {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: none;
+  }
+  .activarBotones {
+    display: block;
+  }
+  .bt {
+    display: block;
+    float: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #iconoMenuResponsive {
+    display: block;
+    float: left;
+  }
+  .ImgP{
+      display: none;
+  }
+  header{
+      display: flex;
+      height: 150px;
+      background-color: #8FC7CF;
+  }
 }
-.Prgos a li:hover{
-    background-color: cadetblue;
-}
+
+    
+    
