@@ -58,3 +58,58 @@
     border: none;
     padding-top: -10px;
 }
+@media only screen and (max-width:767px){
+    .texto{
+        width: 91%;
+        height: 150px;
+        background-color: #F8F8FF;
+        opacity: 0.8;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .titulo{
+        color: #17202A;
+        font-size: 20px;
+        font-family: 'Itim', cursive;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .contenedorInfo{
+        width: 91%;
+        height: 400px;
+        background-color: #F8F8FF;
+        opacity: 0.8;
+        margin: auto;
+        margin-top: 20px;
+        display: flex;
+    }
+    .infoPag{
+        width: 75%;
+        height: 300px;
+        background-color: #EC7063;
+        margin-top: 20px;
+        margin-left: 20px;
+        -webkit-transition: background-color 1s linear;
+        transition: background-color 1s linear;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .androidS{
+        width: 90%;
+        height: 150px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .masInfo{
+        width: 50%;
+        height: 50px;
+        margin: auto;
+        font-family: 'Heebo', sans-serif;
+        font-size: 15px;
+        background-color: #99A3A4;
+        border: none;
+        padding-top: -20px;
+        margin-top: -20px;
+    }
+}
